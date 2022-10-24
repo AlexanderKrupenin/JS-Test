@@ -85,8 +85,23 @@ function pluralizeRecords() {
             alert('В результате выполнения запроса было найдено '+number+' записей');
             }
     }
-
     main();
+}
+//Числа фиб
+function  fibb(){
+    let number = +prompt('Введите число');
+    if(number > 0 && number <= 1000){
+    var fibonacci = [0, 1]; // Первые два элемента последовательности Фибоначчи
+    number = number + 1;
+    for (i = 2; i < number; i ++) {
+      // Получаем i-й элемент последовательности как сумму предыдущих двух
+      fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+    }
+    alert(fibonacci.slice(0,number));
+    }else{
+    alert('Неправильный ввод');  
+    }
+    main(); 
 }
 
 function main() {
