@@ -105,7 +105,7 @@ function  fibb(){
 }
 
 function main() {
-    let number_function = +prompt('Введите функцию: 1 - возведенеи в степень, 2 - НОД, 3 - наименьшая цифра, 4 - Pluralization, 5 - цисла Фибоначчи');
+    let number_function = +prompt('Введите функцию: 1 - возведенеи в степень, 2 - НОД, 3 - наименьшая цифра, 4 - Pluralization, 5 - числа Фибоначчи');
     if(number_function == 1){
         pow();
     }
