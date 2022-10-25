@@ -72,11 +72,7 @@ function pluralizeRecords() {
     if(lastChar_one_symbols == 2 || lastChar_one_symbols == 3 || lastChar_one_symbols == 4){
         alert('В результате выполнения запроса было найдено '+number+' записи');
     }
-
-    if(lastChar_one_symbols == 6 || lastChar_one_symbols == 7 || lastChar_one_symbols == 8 || lastChar_one_symbols == 9){
-        alert('В результате выполнения запроса было найдено '+number+' записей');
-    }
-    if(lastChar_one_symbols == 6 || lastChar_one_symbols == 7 || lastChar_one_symbols == 8 || lastChar_one_symbols == 9 || lastChar_one_symbols == 0){
+    if(lastChar_one_symbols == 5 || lastChar_one_symbols == 6 || lastChar_one_symbols == 7 || lastChar_one_symbols == 8 || lastChar_one_symbols == 9 || lastChar_one_symbols == 0){
         alert('В результате выполнения запроса было найдено '+number+' записей');
     }  
     }else{
