@@ -117,7 +117,7 @@ function main() {
     if(number_function == 5){
         fibb();
     }
-    if(number_function > 5){
+    if(number_function > 5 || number_function < 1){
         alert('Неправильный ввод');  
         main();
     }
